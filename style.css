@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #08162B;
+    --grey: #2B3544;
+    --light-grey: #D8D8D8;
+    --pink: #F29494;
+    --light-pink: #EF9C9C;
+    --dark-blue: #08162B;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*Typography*/
+
+h1 {
+    font-size: 100px;
+    color: var(--white);
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--light-pink);
+    font-weight: 200;
+    opacity: 70%;
+    padding: 0 0 20px;
+}
+
+p {
+    font-size: 20px;
+    color: var(--light-grey);
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 100;
+    opacity: 60%;
+}
+
+/*Header*/
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo img {
+    width: 80%;
+    max-width: 228px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.buy {
+    padding: 12px 25px;
+    color: var(--white);
+    background-color: var(--pink);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/*Main*/
+
+.glavno {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.left {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.boxs {
+    margin-top: 40px;
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    max-width: 306px;
+    border-radius: 12px;
+    padding: 15px 0 0;
+}
+
+.pad {
+    margin-top: -15px;
+    margin-left: 80px;
+}
+
+.pic {
+    margin-top: -20px;
+}
+
+.pic img {
+    width: 90%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    max-width: 966px;
+}
